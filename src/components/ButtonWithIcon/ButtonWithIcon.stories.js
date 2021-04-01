@@ -6,4 +6,4 @@ export default {
     component: ButtonWithIcon,
 }
 
-export const Primary = (props) => <ButtonWithIcon icon={props.icon}>{props.children}</ButtonWithIcon>
+export const PrimaryBtn = (props) => <ButtonWithIcon icon={props.icon} variant={props.variant}>{props.children}</ButtonWithIcon>
