@@ -6,15 +6,18 @@ export default {
     component: Button,
 }
 
-const Template = args => <Button {...args} />
+export const Primary = (props) => <Button variant ='shadow-lg hover:shadow-inner mx-3' color='text-blue-800'>{props.children}</Button>
+export const Secondary = () => <Button variant ='shadow-inner' color='text-pink-600' />
 
-export const Primary = Template.bind({})
-Primary.args = {
-    variant: 'shadow-lg'
-}
-export const Secondary = Template.bind({})
-Secondary.args = {
-    variant: 'shadow-inner',
-    color: 'text-pink-600'
-}
+// const Template = args => <Button {...args} />
+
+// export const Primary = Template.bind({})
+// Primary.args = {
+//     variant: 'shadow-lg'
+// }
+// export const Secondary = Template.bind({})
+// Secondary.args = {
+//     variant: 'shadow-inner',
+//     color: 'text-pink-600'
+// }
 
