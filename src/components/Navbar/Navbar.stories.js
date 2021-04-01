@@ -6,10 +6,11 @@ export default {
 }
 
 export const Navbar = () => (
-    <div className='flex justify-end'>
+    <div className='flex justify-end content-center'>
         <Primary>Home</Primary>
         <Primary>About</Primary>
         <Primary>My Work</Primary>
         <Primary>Resume</Primary>
+
     </div>
 )
