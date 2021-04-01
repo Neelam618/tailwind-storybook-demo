@@ -2,7 +2,7 @@ import React from 'react';
 import {Primary} from '../Button/Button.stories';
 
 export default {
-    title: 'Navbar'
+    title: 'Home/Navbar'
 }
 
 export const Navbar = () => (

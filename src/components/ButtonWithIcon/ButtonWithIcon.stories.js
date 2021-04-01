@@ -2,7 +2,7 @@ import React from 'react';
 import ButtonWithIcon from './ButtonWithIcon';
 
 export default {
-    title: 'ButtonWithIcon',
+    title: 'My Work/ButtonWithIcon',
     component: ButtonWithIcon,
 }
 
