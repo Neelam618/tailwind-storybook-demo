@@ -8,20 +8,13 @@ export default {
 
 const Template = args => <Button {...args} />
 
-export const Home = Template.bind({})
-Home.args = {
-    children: 'Home'
+export const Primary = Template.bind({})
+Primary.args = {
+    variant: 'shadow-lg'
 }
-export const About = Template.bind({})
-About.args = {
-    children: 'About'
-}
-export const MyWork = Template.bind({})
-MyWork.args = {
-    children: 'My Work'
-}
-export const Resume = Template.bind({})
-Resume.args = {
-    children: 'Resume'
+export const Secondary = Template.bind({})
+Secondary.args = {
+    variant: 'shadow-inner',
+    color: 'text-pink-600'
 }
 
