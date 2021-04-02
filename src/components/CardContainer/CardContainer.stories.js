@@ -7,7 +7,7 @@ export default {
 }
 
 export const PrimaryCardContainer = () => (
-    <div className="grid lg:grid-cols-2 gap-10 xs:m-5">
+    <div className="grid lg:grid-cols-2 gap-10 sm:m-5">
         <PrimaryCard title = 'Style Stage' image={StyleStage}>regfref ewfeu</PrimaryCard>
         <PrimaryCard title = 'Movies browser'>regfref Movies browser</PrimaryCard>
         <PrimaryCard title = 'Sahyadri'>regfref Sahyadri</PrimaryCard>
